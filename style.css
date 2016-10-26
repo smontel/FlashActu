@@ -1,0 +1,463 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #e0e0e0;
+  margin:0;
+  vw:100;
+}
+@font-face { 
+  font-family:'FFF_Tusj';
+  src: url('FFF_Tusj.ttf');
+}
+
+.container{
+  max-width:1200px;
+  width: auto;
+  margin:auto;
+  box-sizing: border-box;
+}
+
+.clear{
+clear:both;
+}
+
+.cont-article{
+  width:68%;
+ float:left;
+  margin:4px,4px,12px,12px;
+  padding: 4px;
+  box-sizing: border-box;
+
+}
+.article{
+margin:5px 2px 5px 2px;
+width:32%;
+float:left;
+font-size:13px;
+  box-sizing: border-box;
+}
+.article img{
+  width:97%;
+  box-sizing: border-box;
+}
+
+.categorie .article:first-of-type{
+  padding-bottom:5px;
+  border-bottom: 2px solid grey;
+  width:100%;
+  font-size: 1em;
+}
+
+.categorie{
+  padding:1px 5px 5px 5px;
+  margin-bottom:5px;
+  background-color:white;
+  height:auto;
+  box-sizing: border-box;
+}
+
+
+.cont-widget{
+width:30%;
+float:right;
+background-color:white;
+margin-top:4px;
+  box-sizing: border-box;
+}
+
+.img-pub{
+width:100%;
+}
+
+h2{
+  color:black;
+  padding-left:15px;
+  margin-top: 10px;
+}
+h3{
+padding-left:7px;
+  
+}
+
+
+a{
+text-decoration:none;
+}
+
+a:hover{
+color:blue;
+  text-decoration: underline;
+}
+
+ a img{
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in-out;/* transition pour Chrome et Safari */
+  -moz-transition: opacity 0.5s ease-in-out;/* transition pour Firefox */
+  -o-transition: opacity 0.5s ease-in-out;/* transition pour Opéra */
+  transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
+}
+.article a img:hover {
+  opacity: 0.5; /* opacite au survol */
+
+}
+
+#international h2 span{
+color:#55677b;
+  font-size:50px;
+  font-family:'FFF_Tusj';
+}
+#international h2{
+  border-bottom: 2px solid #55677b;
+}
+#international .article:first-of-type{
+  border-bottom: 2px solid #55677b;
+}
+#politique h2 span{
+  color:#d03232;
+  font-size:50px;
+  font-family:'FFF_Tusj';
+}
+#politique .article:first-of-type{
+  border-bottom: 2px solid #d03232;
+}
+#politique h2{
+  border-bottom: 2px solid #d03232;
+}
+#economie h2 span{
+  color:#0d8279;
+  font-size:50px;
+  font-family:'FFF_Tusj';
+}
+#economie h2{
+  border-bottom: 2px solid #0d8279;
+}
+#economie .article:first-of-type{
+  border-bottom: 2px solid #0d8279;
+}
+
+#environement h2 span{
+  color:#159d00;
+  font-size:50px;
+  font-family:'FFF_Tusj';
+}
+#environement h2{
+
+border-bottom: 2px solid #159d00;
+}
+#environement .article:first-of-type{
+  border-bottom: 2px solid #159d00;
+}
+#science h2 span{
+  color:#ffc615;
+  font-size:50px;
+  font-family:'FFF_Tusj';
+}
+#science h2{
+  border-bottom: 2px solid #ffc615;
+}
+#science .article:first-of-type{
+  border-bottom: 2px solid #ffc615;
+}
+#Sport h2 span{
+  color:#ff7600;
+  font-size:50px;
+  font-family:'FFF_Tusj';
+}
+#Sport h2{
+
+  border-bottom: 2px solid #ff7600;
+}
+#Sport .article:first-of-type{
+  border-bottom: 2px solid #ff7600;
+}
+
+#culture h2 span{
+  color:#502365;
+  font-size:50px;
+  font-family:'FFF_Tusj';
+}
+#culture h2{
+
+  border-bottom: 2px solid #502365;
+}
+#culture .article:first-of-type{
+  border-bottom: 2px solid #502365;
+}
+/**-/-------------------------*/
+hr {
+  color: #f00;
+  background-color: white;
+  height: 2px;
+  margin-top: 5px
+}
+/*CSS qui gere les proprietes du Header */
+
+header {
+  text-align:center;
+  background-color: #4f4646;
+  height: 40px;
+  position: fixed;
+  width:auto;
+  top:0px;
+  left:0;
+  right:0;
+  z-index:999999;
+  width:100%;
+  margin-bottom: 0px;
+}
+/*CSS qui gere le logo du site */
+
+.logo {
+  position:fixed;
+  width: 40px;
+  height: 40px;
+  left:0px;
+  top:0px;
+}
+
+/*CSS qui gere le Titre du site */
+
+h1 {
+  font-family: "FFF_Tusj", arial, sans-serif;
+  font-stretch:extra-expanded; 
+  font-size: 45px;  
+  position: justify;
+  color: white;
+  margin: 0px;
+  margin-top: 40px;
+}
+/*CSS qui gere le texte du footer */
+
+footer p {
+  font-family: "FFF_Tusj", arial, sans-serif;
+  font-size: 15px;
+  color: antiquewhite;
+  word-spacing: 20px;
+  margin-left: auto;
+  padding-top: 10px;
+}
+/*CSS qui gere la structure du footer */
+
+footer {
+  background: #4f4646;
+  width:100%;
+  height:auto;
+  margin-bottom: 0px;
+  text-align: center;
+  
+}
+/*CSS qui gere la barre de navigation */
+
+#menu {
+  position: fixed;
+  width: 100%;
+  height: 35px;
+  font-size: 16px;
+  font-family: "FFF_Tusj", Tahoma, Geneva, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: linear-gradient(-90deg, #2f2a2a,#483e3e, #0d0d0d);
+  margin-top: auto;   
+}
+#menu ul {
+  height: auto;
+  padding: 8px 0px;
+  margin: 0px;
+  color: white;
+}
+#menu li { 
+  display: inline; 
+  padding: 20px; 
+}
+#menu a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 8px 8px 8px;;
+  text-align:center;
+  align-content: stretch;  
+}
+/* CSS qui gere la couleur au survol du nav bar*/
+
+#menu li>.inter:hover {
+  background: #55677B;
+}
+#menu li>.poli:hover {
+  background: #D03232;
+}
+#menu li>.eco:hover {
+  background: #0D8279;
+}
+#menu li>.sport:hover {
+  background: #ff7600;
+}
+#menu li>.envi:hover {
+  background: #159D00;
+}
+#menu li>.sci:hover {
+  background: #FFC615;
+}
+#menu li>.cult:hover {
+  background: #502365;
+}
+/* CSS qui gere les icones sociales du footer: source: perfecticons.com*/
+
+@font-face {
+  font-family: 'si';
+  src: url('font/socicon.eot');
+  src: url('font/socicon.eot?#iefix') format('embedded-opentype'),
+    url('font/socicon.woff') format('woff'),
+    url('font/socicon.ttf') format('truetype'),
+    url('font/socicon.svg#icomoonregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family:'si';
+    src: url(font/socicon.svg) format(svg);
+  }
+}
+.soc li {
+  display:inline-block;
+  zoom:1;
+}
+.soc li a {
+  font-family:si!important;
+  font-style:normal;
+  font-weight:400;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  -o-transition:.1s;
+  -ms-transition:.1s;
+  -moz-transition:.1s;
+  -webkit-transition:.1s;
+  transition:.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  position: relative;
+  z-index: 1;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 15px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  margin-right: 14px;
+  color: #ffffff;
+  background-color: none;
+  margin-bottom: 10px;
+  margin:auto;
+}
+.soc a:hover {
+  z-index: 2;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.soc-icon-last{
+  margin:0 !important;
+}
+.soc-twitter {
+  background-color: #4da7de;
+}
+.soc-twitter:before {
+  content:'\e040';
+}
+.soc-googleplus {
+  background-color: #dd4b39;
+}
+.soc-googleplus:before {
+  content:'\e042';
+}
+.soc-facebook {
+  background-color: #3e5b98;
+}
+.soc-facebook:before {
+  content:'\e041';
+}
+.soc-rss {
+  background-color: #f26109;
+}
+.soc-rss:before {
+  content:'\e00b';
+}
+.soc-instagram {
+  background-color: #405de6;
+}
+.soc-instagram:before {
+  content:'\e057';
+}
+.soc{
+margin:auto;
+}
+.band {
+text-align: center;
+height: 60px;
+width: 100%;
+  background-color: #4f4646;
+  margin-top: 0px;
+}
+.ul{
+margin-bottom: 25px;
+}
+#meteo {
+  margin-bottom: 5px;
+
+} 
+#calendar {
+
+} 
+@media (max-width: 969px) {
+#menu{
+  display:none;
+    
+  }
+  header{
+  position:absolute;
+  }
+  .pub {
+  display: none;
+    
+  }
+  .cont-article{
+  width:100%;
+    margin-right:0px;
+  }
+  .cont-widget{
+  width:98%;
+  }
+  
+  .band{
+  margin-top:0px;
+  }
+  .logo{
+  position: absolute;
+
+  }
+  .article{
+  width:31%;
+  }
+  .article img{
+  
+  display:none;
+  }
+  
+  .container .article:first-of-type img{
+  display:block;
+  }
+  
+  .container{
+    max-width:1200px;
+    width: 100vw;
+    margin:0px;
+  }
+ 
+}
